@@ -15,9 +15,9 @@ int GreenbtnState = HIGH;
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "SATAVIT_2.4G"; // ชื่อ WiFi ของคุณ
-const char* password = "babanook_007"; // รหัสผ่าน WiFi ของคุณ
-const char* mqtt_server = "192.168.1.37"; // IP ของ MQTT Broker
+const char* ssid = "Wifi_Name"; // ชื่อ WiFi ของคุณ
+const char* password = "PassWord"; // รหัสผ่าน WiFi ของคุณ
+const char* mqtt_server = "ใส่ IP Host ของคุณ"; // IP ของ MQTT Broker
 const int mqtt_port = 1883; // Port ของ MQTT Broker (ส่วนมากเป็น 1883)
 
 WiFiClient espClient;
